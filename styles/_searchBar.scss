@@ -1,0 +1,29 @@
+/* >>>>>>>> SEARCH <<<<<<<<<<*/
+
+.search{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.search__title{
+    width: fit-content;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+}
+.search__input{
+width: 60%;
+border-radius: 20px;
+border: 2px solid black;
+color: black;
+padding:5px 20px;
+background-color:#f8f3eb;
+
+
+}
+::placeholder{
+    color:black;
+    font-weight: 700;
+}

@@ -1,0 +1,51 @@
+/* >>>>>>>>>  HEADER <<<<<<<<<<< */
+.header{
+    width: 100%;
+    height: 80px;
+    /* background-color: #43d8c9; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__brand{
+    margin-top:15px;
+    margin-left: 15px;
+    display: inline-block;
+    width: fit-content;
+    font-size: 2em;
+}
+
+.header__profile{
+    position: relative;
+    margin-top:15px;
+    margin-right: 25px;
+}
+
+.header__profile img{
+    position: relative;
+    top:10px;
+}
+
+.header__profile--list{
+    display: none;
+    position: absolute;
+    text-align: right;
+}
+
+
+.header__profile--list li,
+.header__profile--list a {
+    list-style: none;
+    text-decoration: none;
+    margin: 10px 5px 5px 0px;
+   
+}
+
+.header__profile--list a:hover {
+
+font-weight: 800;
+}
+
+.header__profile:hover ul, ul:hover{
+display: block;
+}

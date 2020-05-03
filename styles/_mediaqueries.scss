@@ -1,0 +1,25 @@
+@media screen and (max-width:415px){
+
+    .search{
+        height: 600px;
+    }
+    .search__title{
+        
+        width: 300px;
+        height: 100px;
+        text-align: left;
+    }
+}
+
+@media screen and (max-width:321px){
+
+    .search{
+        height: 400px;
+    }
+    .search__title{
+        
+        width: 300px;
+        height: 100px;
+        text-align: left;
+    }
+}
